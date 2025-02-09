@@ -24,13 +24,14 @@ setup(
         "torchvision>=0.15.1",
         "scikit-image==0.18.3",
         "dominate==2.6.0",
-        "numba==0.57.1",
-        "Click==8.0.3",
-        "requests==2.26.0",
+        "numba>=0.59.1",        
+        "Click>=8.1.3",
+        "requests>=2.32.3",
         "dask==2021.11.2",
         "visdom>=0.1.8.3",
         "python-bioformats>=4.0.6"
-    ],
+]
+
     entry_points={
         'console_scripts': [
             'deepliif = cli:cli'
